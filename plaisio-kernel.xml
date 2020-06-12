@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\DialogMessage\DialogMessageFactory</type>
+            <name>dialogMessage</name>
+            <description>The helper object for creating dialog messages.</description>
+        </property>
+    </properties>
+</kernel>
