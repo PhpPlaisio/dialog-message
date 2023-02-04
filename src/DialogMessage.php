@@ -14,7 +14,7 @@ interface DialogMessage
    *
    * @param string      $text       The text of the button.
    * @param array       $attributes The additional attributes of the button.
-   * @param bool        $close      If true, clicking the button will close the dialog. If false, the action of the
+   * @param bool        $close      Whether clicking the button will close the dialog. If false, the action of the
    *                                button has to be set via other means.
    * @param string|null $uri        The URI to redirect the user agent to after the dialog has been closed (implies
    *                                $close = true).
@@ -28,7 +28,7 @@ interface DialogMessage
    * Sets the message of the dialog.
    *
    * @param string|null $message The message of the dialog.
-   * @param bool        $isHtml  If false, the message is plain text. If true, the message is HTML code.
+   * @param bool        $isHtml  Whether the message is HTML code or plain text.
    *
    * @return static
    */
@@ -36,7 +36,7 @@ interface DialogMessage
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Sets modal. If set to true, the dialog will have modal behavior.
+   * Sets whether the dialog will have modal behavior.
    *
    * @param bool $modal
    *
